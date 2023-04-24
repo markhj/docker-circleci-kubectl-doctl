@@ -3,6 +3,18 @@
 This Docker image provides ``kubectl`` and ``doctl`` and a script to log in to your cluster.
 It was designed for CircleCI, but fit other use-cases.
 
+## Overview
+````bash
+docker pull markhj/circleci-kubectl-doctl
+````
+
+DockerHub:
+https://hub.docker.com/r/markhj/circleci-kubectl-doctl
+
+GitHub:
+https://github.com/markhj/docker-circleci-kubectl-doctl
+
+
 ## Before booting the image
 Before starting the container, you must configure two environment variables.
 
